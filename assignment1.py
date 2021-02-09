@@ -50,7 +50,7 @@ for url in urls:
             title = "Premium Content"
             article = "Premium Content"
             date = "Premium Content"
-        date = date[-21:]
+        date = date[-23:]
         fd.write(f"Link:\n{link}\n\nTitle:\n{title}\n\nDate:\n{date}\n\nContents:\n{article}")
         i += 1
         fd.close()
